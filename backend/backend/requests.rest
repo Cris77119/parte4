@@ -1,0 +1,13 @@
+### Ver todos los blogs
+GET http://localhost:3003/api/blogs
+
+### Crear un blog
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "Mi primer blog",
+  "author": "Cristian",
+  "url": "https://ejemplo.com",
+  "likes": 10
+}
